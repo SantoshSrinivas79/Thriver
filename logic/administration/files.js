@@ -10,11 +10,13 @@ const miss = require('mississippi');
 const crypto = require('crypto');
 
 Meteor.startup(() => {
+  /*
   // Get AWS settings from settings.json or environment variable
   const { region, accessKeyId, secretAccessKey } = Settings.get('aws');
 
   // Configure region and keys
   AWS.config.update({ region, accessKeyId, secretAccessKey });
+  */
 });
 
 Meteor.methods({

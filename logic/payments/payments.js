@@ -11,6 +11,7 @@ let product;
  * @summary Configure Stripe options
  */
 Meteor.startup(() => {
+  /*
   const settings = Settings.get('stripe') || {};
   const { secretKey } = settings;
   stripe = StripeConstructor(secretKey);
@@ -35,6 +36,7 @@ Meteor.startup(() => {
       });
     }
   });
+  */
 });
 
 Meteor.methods({
